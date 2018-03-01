@@ -1,0 +1,72 @@
+$main_font : 'Bitter' ,   serif
+
+body
+  height: 1500px
+
+
+.header
+  background: url('/../images/header.png') bottom no-repeat
+  width: 100%
+  height: 700px
+
+.header__content
+  width: 30%
+  color: #ffffff
+  padding: 70px 0 0 230px
+  font-family: $main_font
+  .header-content__logo
+    font-size: 25px
+  .header-content__title
+    font-size: 45px
+    margin-top: 100px
+    line-height: 55px
+  .header-content__text
+    margin-top: 40px
+    line-height: 20px
+  .header-content__button
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 25px
+    margin-top: 35px
+    background: linear-gradient(to right, #236EC2, #10D5DB)
+    text-transform: uppercase
+    width: 160px
+    height: 45px
+    cursor: pointer
+
+.content
+  position: relative
+
+.waves
+  height: 218px
+  width: 100%
+  position: absolute
+  overflow: hidden
+  top: -218px
+
+.wave__one
+  background: url(/../images/wave_top.png) repeat-x
+  height: 218px
+  width: 7000px
+  position: absolute
+  top: 0
+  -webkit-animation: waves 15s infinite linear
+  -o-animation: waves 15s infinite linear
+  animation: waves 15s infinite linear
+
+.wave__two
+  background: url(/../images/wave_top_opacity.png) repeat-x
+  height: 218px
+  width: 7000px
+  position: absolute
+  top: 0
+  -webkit-animation: waves 10s infinite linear
+  -o-animation: waves 10s infinite linear
+  animation: waves 10s infinite linear
+
+@keyframes waves
+  0%
+    margin-left: 0
+  100%
+    margin-left: -1938px
