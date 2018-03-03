@@ -6,7 +6,7 @@ body {
   margin: 0 auto; }
 
 .header {
-  background: url("../../images/header.PNG") bottom no-repeat;
+  background: url("../../images/header.png") bottom no-repeat;
   width: 100%;
   height: 700px; }
 
@@ -47,7 +47,7 @@ body {
   top: -218px; }
 
 .wave__one {
-  background: url(../../images/wave_top.PNG) repeat-x;
+  background: url(../../images/wave_top.png) repeat-x;
   height: 218px;
   width: 7000px;
   position: absolute;
@@ -57,7 +57,7 @@ body {
   animation: waves 15s infinite linear; }
 
 .wave__two {
-  background: url(../../images/wave_top_opacity.PNG) repeat-x;
+  background: url(../../images/wave_top_opacity.png) repeat-x;
   height: 218px;
   width: 7000px;
   position: absolute;
