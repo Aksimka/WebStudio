@@ -186,6 +186,8 @@ body
   display: flex
   justify-content: center
   align-items: center
+  .fa-circle
+    opacity: 0.3
   i
     color: #00A2F8
     border-radius: 10px
@@ -200,8 +202,6 @@ body
   background: linear-gradient(135deg, #D4DBEC, #e71b9d)
   opacity: 0.5
 
-.fa-circle
-  opacity: 0.3
 
 .features__header
   margin-top: 53px
@@ -214,19 +214,27 @@ body
   .container
     width: 910px
     display: flex
+    align-items: center
 
 .features-statut__item
   width: 32%
   margin-left: 17px
+  img
+    margin-bottom: 10px
   &:first-child
     margin-left: 0
-  &:last-child
-    img
-      margin-bottom: 10px
+    .features-status-item-content__item
+      margin-top: 10px
   &:nth-child(2)
     .features-status-item-content__button
       background: #266dc1
       color: #ffffff
+    .features-status-item-content__item
+      margin-top: 8px
+  &:last-child
+
+    .features-status-item-content__item
+      margin-top: 8px
 
 .features-status-item__header
   text-align: center
@@ -244,13 +252,12 @@ body
 
 .features-status-item-content__item
   display: flex
-  margin-top: 10px
   padding-left: 40px
   p
     margin-left: 10px
 
 .features-status-item__content
-  padding: 30px 0 30px 0
+  padding: 30px 0 17px 0
   background: #ffffff
   i
     color: #2774c5
@@ -265,11 +272,174 @@ body
   width: 90px
   color: #266dc1
   font-size: 14px
-  margin-top: 30px
+  margin-top: 60px
 
 .features-status-item-content__bottom
   display: flex
   justify-content: center
+
+.checkourwork
+  margin-top: 227px
+  font-family: $font_lato
+  letter-spacing: 1px
+  .container
+    text-align: center
+    width: 1030px
+
+.checkourwork__header
+  font-size: 27px
+  color: #474747
+
+.checkourwork__pic
+  text-align: center
+  margin-top: 50px
+
+.checkourwork__text
+  width: 605px
+  margin: 0 auto
+  margin-top: 30px
+  line-height: 25px
+
+.checkourwork__button
+  margin: 0 auto
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 25px
+  margin-top: 38px
+  background: linear-gradient(to right, #236EC2, #10D5DB)
+  text-transform: uppercase
+  width: 170px
+  height: 55px
+  cursor: pointer
+  color: #ffffff
+  margin-bottom: 386px
+
+.calling
+  margin-top: 227px
+  font-family: $font_lato
+  letter-spacing: 1px
+  background: #1f0022
+  .container
+    text-align: center
+    width: 1030px
+    padding-bottom: 75px
+
+.calling__comment
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  left: 0
+  top: -110px
+
+.calling-comment__content
+  position: relative
+  width: 82%
+  display: flex
+  justify-content: center
+
+.calling-comment-content__back
+  box-shadow: 1px -5px 87px -16px rgba(0,0,0,0.75)
+  height: 100% - 10
+  position: absolute
+  width: 100%
+  margin: 0 auto
+  background: #ffffff
+
+.arrow
+  display: flex
+
+.left__arrow
+  border-radius: 50px
+  padding: 8px 17px 8px 15px
+  margin-right: 40px
+  background: linear-gradient(180deg, #1BA2CF, #11d9e2)
+.right__arrow
+  border-radius: 50px
+  padding: 8px 15px 8px 18px
+  margin-left: 40px
+  background: linear-gradient(180deg, #1BA2CF, #11d9e2)
+
+.calling-comment-content__front
+  box-shadow: 1px -5px 87px -16px rgba(0,0,0,0.75)
+  width: 89%
+  margin-top: -50px
+  position: relative
+  background: #ffffff
+  padding-bottom: 110px
+
+.calling-comment-content-front__image
+  margin-top: 70px
+  font-size: 27px
+  color: #E1E1E1
+
+
+.calling-comment-content-front__name
+  margin-top: 35px
+  font-size: 17px
+  text-transform: uppercase
+  color: #3c7ac9
+  font-weight: bolder
+
+.calling-comment-content-front__mark
+  margin-top: 30px
+  font-size: 23px
+  color: #1ba2cf
+
+.calling-comment-content-front__text
+  width: 65%
+  text-align: center
+  margin: 0 auto
+  margin-top: 33px
+  line-height: 23px
+
+.calling__header
+  font-size: 25px
+  color: #ffffff
+  margin-top: 33px
+
+.calling__text
+  margin: 0 auto
+  margin-top: 45px
+  font-size: 18px
+  color: #ffffff
+  width: 49%
+  line-height: 20px
+
+.calling__button
+  margin: 0 auto
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 25px
+  margin-top: 45px
+  background: linear-gradient(to right, #236EC2, #10D5DB)
+  text-transform: uppercase
+  width: 170px
+  height: 55px
+  cursor: pointer
+  color: #ffffff
+
+.footer
+  font-family: $font_lato
+  display: flex
+
+.footer__menu
+  display: flex
+  padding: 35px 200px
+  font-size: 16px
+
+.footer-menu__item
+  margin-left: 23px
+
+.footer__social
+  font-size: 12px
+  margin: 35px 0 35px 100px
+  .fa-circle
+    color: #1f0022
+  .fa-stack
+    margin-left: 30px
 
 
 @keyframes waves
