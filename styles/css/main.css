@@ -393,7 +393,7 @@ iframe {
   position: relative; }
 
 .checkourwork-pic__heart {
-  background: url("/../images/heart.png");
+  background: url("../../images/heart.png");
   position: absolute;
   width: 31px;
   height: 30px;
