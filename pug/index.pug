@@ -84,9 +84,13 @@ html
                     .features__video
                         .layout
                         .features-video__img
-                            span.fa-stack.fa-5x
-                                i.fa.fa-circle.fa-3x.fa-stack-2x
-                                i.fa.fa-play-circle.fa-1x.fa-stack-1x
+                            span.fa-stack.fa-4x
+                                i.far.fa-circle.fa-1x.fa-stack-2x.one
+                                i.far.fa-circle.fa-1x.fa-stack-2x.two
+                                i.far.fa-circle.fa-1x.fa-stack-2x.three
+                                i.far.fa-circle.fa-1x.fa-stack-2x.four
+                                i.fa.fa-play-circle.fa-2x.fa-stack-1x
+                        iframe(width = "900" height = "490" src = "https://www.youtube.com/embed/w3jLJU7DT5E" frameborder = "0" allow = "autoplay; encrypted-media" allowfullscreen)
                     .features__header What features we provide to you ?
                 .features__status
                     .container
@@ -135,7 +139,7 @@ html
                                     i.far.fa-check-circle
                                     p Fast Finished Project
                                 .features-status-item-content__bottom
-                                    .features-status-item-content__button get started
+                                    .features-status-item-content__button.blue get started
                         .features-statut__item
                             .features-status-item__header
                                 .features-status-item-header__title gold
@@ -163,7 +167,8 @@ html
                 .container
                     .checkourwork__header Check out our excellent work
                     .checkourwork__pic
-                        img(src = 'images/comp.png')
+                        img(src = 'images/comp2.png')
+                        .checkourwork-pic__heart
                     .checkourwork__text If you are still in doubt, See our best work on solving problems, where we try to explain every stage of our work, and we also explain what is really behind the scenes
                     .checkourwork__button check out
             .calling
@@ -174,16 +179,45 @@ html
                                 i.fa.fa-angle-left.fa-2x
                         .calling-comment__content
                             .calling-comment-content__back
-                            .calling-comment-content__front
-                                .calling-comment-content-front__image
-                                    i.fas.fa-user-circle.fa-5x
-                                .calling-comment-content-front__name your name
+                            .calling-comment-content__front.cur
+                                img(src = 'images/safonov.jpg')
+                                .calling-comment-content-front__name Safonov Maksim
                                 .calling-comment-content-front__mark
-                                    i.fa.fa-star
-                                    i.fa.fa-star
-                                    i.fa.fa-star
-                                    i.fa.fa-star
-                                    i.fa.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star-half
+                                .calling-comment-content-front__text But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born, a conplete account of the actual that is truth, the master builder of human happiness will explain more...
+                            .calling-comment-content__front
+                                img(src = 'images/lobanov1.jpg')
+                                .calling-comment-content-front__name John Lowson
+                                .calling-comment-content-front__mark
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.far.fa-star
+                                .calling-comment-content-front__text But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born, a conplete account of the actual that is truth, the master builder of human happiness will explain more...
+                            .calling-comment-content__front
+                                img(src = 'images/josefin.jpg')
+                                .calling-comment-content-front__name Josef Doe
+                                .calling-comment-content-front__mark
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                .calling-comment-content-front__text But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born, a conplete account of the actual that is truth, the master builder of human happiness will explain more...
+                            .calling-comment-content__front
+                                img(src = 'images/sarah.jpg')
+                                .calling-comment-content-front__name Sarah Brown
+                                .calling-comment-content-front__mark
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star
+                                    i.fas.fa-star-half
                                 .calling-comment-content-front__text But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born, a conplete account of the actual that is truth, the master builder of human happiness will explain more...
                         .calling-comment__arrow-right.arrow
                             .right__arrow
@@ -193,11 +227,11 @@ html
                     .calling__button get started
             .footer
                 .footer__menu
-                    .footer-menu__item Contact us
-                    .footer-menu__item Features
-                    .footer-menu__item Teams
-                    .footer-menu__item More
-                    .footer-menu__item Login
+                    a(href = "#" class = "footer-menu__item") Contact us
+                    a(href = "#" class = "footer-menu__item") Features
+                    a(href = "#" class = "footer-menu__item") Teams
+                    a(href = "#" class = "footer-menu__item") More
+                    a(href = "#" class = "footer-menu__item") Login
                 .footer__social
                     span.fa-stack
                         i.fa.fa-circle.fa-stack-2x
@@ -213,7 +247,7 @@ html
                         i.fab.fa-vk.fa-inverse.fa-stack-1x
                     span.fa-stack
                         i.fa.fa-circle.fa-stack-2x
-                        i.fasg.fa-at.fa-inverse.fa-stack-1x
+                        i.fas.fa-at.fa-inverse.fa-stack-1x
 
 
 
@@ -226,10 +260,5 @@ html
 
 
 
-
-
-
-
-            script
             script(src = 'js/jquery.js')
             script(src = 'js/main.js')
