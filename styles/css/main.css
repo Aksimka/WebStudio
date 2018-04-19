@@ -618,6 +618,9 @@ iframe {
     margin-left: -1938px; } }
 
 @media (max-width: 995px) {
+  .container{
+  	width: 600px;
+  }
   .header {
     background: url("../../images/header.png") center no-repeat;
     background-size: auto;
