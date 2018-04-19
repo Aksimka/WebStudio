@@ -5,7 +5,7 @@ body
   height: 1500px
 
 .container
-  width: 900px
+  width: 69%
   margin: 0 auto
 
 .header
@@ -14,9 +14,9 @@ body
   height: 700px
 
 .header__content
-  width: 30%
+  width: 40%
   color: #ffffff
-  padding: 70px 0 0 230px
+  padding-top: 70px
   font-family: $font-bitter
 .header-content__logo
   font-size: 25px
@@ -440,16 +440,17 @@ iframe
   background: #1f0022
   .container
     text-align: center
-    width: 1030px
+    width: 100%
     padding-bottom: 75px
 
 .calling__comment
   display: flex
   align-items: center
-  justify-content: center
+  justify-content: space-between
   position: relative
   left: 0
   top: -110px
+
 
 .calling-comment__content
   position: relative
@@ -458,6 +459,7 @@ iframe
   justify-content: center
   align-items: center
   height: 600px
+  margin-top: -100px
 
 .calling-comment-content__back
   box-shadow: 1px -5px 87px -16px rgba(0,0,0,0.75)
@@ -470,16 +472,20 @@ iframe
 .arrow
   display: flex
   cursor: pointer
+  margin-top: -100px
+
+.calling-comment__arrow-left
+  width: 5%
+.calling-comment__arrow-right
+  width: 5%
 
 .left__arrow
   border-radius: 50px
   padding: 8px 17px 8px 15px
-  margin-right: 40px
   background: linear-gradient(180deg, #1BA2CF, #11d9e2)
 .right__arrow
   border-radius: 50px
   padding: 8px 15px 8px 18px
-  margin-left: 40px
   background: linear-gradient(180deg, #1BA2CF, #11d9e2)
 
 .calling-comment-content__front
@@ -610,3 +616,12 @@ iframe
     margin-left: 0
   100%
     margin-left: -1938px
+
+@media (max-width: 995px)
+  .header
+    background: url('/../images/header.png') center no-repeat
+    background-size: auto
+    height: 700px
+
+  .header__content
+    width: 60%
