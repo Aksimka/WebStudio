@@ -2,7 +2,7 @@ doctype html
 html
     head
         meta(charset = 'utf-8')
-        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
         link(href = 'styles/css/reset.css' rel = 'stylesheet')
         link(href = 'styles/css/fontawesome-all.css' rel = 'stylesheet')
         link(href = 'https://fonts.googleapis.com/css?family=Bitter' rel = 'stylesheet')
@@ -13,7 +13,7 @@ html
             .header
                 .container
                     .header__content
-                        .header-content__logo LOGO
+                        .header-content__logo .exchng
                         .header-content__title Create Your Design Now
                         .header-content__text We work and freelancesto complete allrelated work on design
                         .header-content__button get started
@@ -92,7 +92,8 @@ html
                                 i.far.fa-circle.fa-1x.fa-stack-2x.three
                                 i.far.fa-circle.fa-1x.fa-stack-2x.four
                                 i.fa.fa-play-circle.fa-2x.fa-stack-1x
-                        iframe(width = "900" height = "490" src = "https://www.youtube.com/embed/w3jLJU7DT5E" frameborder = "0" allow = "autoplay; encrypted-media" allowfullscreen)
+                        iframe(width = "100%" height = "100%" src = "https://www.youtube.com/embed/w3jLJU7DT5E"
+                        frameborder = "0" allow = "autoplay; encrypted-media" allowfullscreen)
                     .features__header What features we provide to you ?
                 .features__status
                     .container
@@ -234,33 +235,23 @@ html
                     a(href = "#" class = "footer-menu__item") Teams
                     a(href = "#" class = "footer-menu__item") More
                     a(href = "#" class = "footer-menu__item") Login
-                .footer__social
-                    span.fa-stack
-                        i.fa.fa-circle.fa-stack-2x
-                        i.fab.fa-facebook-f.fa-inverse.fa-stack-1x
-                    span.fa-stack
-                        i.fa.fa-circle.fa-stack-2x
-                        i.fab.fa-instagram.fa-inverse.fa-stack-1x
-                    span.fa-stack
-                        i.fa.fa-circle.fa-stack-2x
-                        i.fab.fa-twitter.fa-inverse.fa-stack-1x
-                    span.fa-stack
-                        i.fa.fa-circle.fa-stack-2x
-                        i.fab.fa-vk.fa-inverse.fa-stack-1x
-                    span.fa-stack
-                        i.fa.fa-circle.fa-stack-2x
-                        i.fas.fa-at.fa-inverse.fa-stack-1x
-
-
-
-
-
-
-
-
-
-
-
+                .footer__socialLayout
+                    .footer__social
+                        span.fa-stack
+                            i.fa.fa-circle.fa-stack-2x
+                            i.fab.fa-facebook-f.fa-inverse.fa-stack-1x
+                        span.fa-stack
+                            i.fa.fa-circle.fa-stack-2x
+                            i.fab.fa-instagram.fa-inverse.fa-stack-1x
+                        span.fa-stack
+                            i.fa.fa-circle.fa-stack-2x
+                            i.fab.fa-twitter.fa-inverse.fa-stack-1x
+                        span.fa-stack
+                            i.fa.fa-circle.fa-stack-2x
+                            i.fab.fa-vk.fa-inverse.fa-stack-1x
+                        span.fa-stack
+                            i.fa.fa-circle.fa-stack-2x
+                            i.fas.fa-at.fa-inverse.fa-stack-1x
 
             script(src = 'js/jquery.js')
             script(src = 'js/main.js')
