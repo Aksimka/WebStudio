@@ -6,7 +6,7 @@ body {
   margin: 0 auto; }
 
 .header {
-  background: url("../images/header.png") bottom no-repeat;
+  background: url("../images/header.png") bottom no-repeat / cover;
   width: 100%;
   height: 700px; }
 
